@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100%;
+    
+}
+
+
+header {
+    background-color: rgba(225, 210, 166, 0.975); 
+    color: #fff; 
+    padding: 15px 20px; /* Espacement ds le header */
+}
+
+nav {
+    display: flex; /* On donne une valeur par defaut aux éléments qui resteront flexibles */ 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    margin: 0 10px;
+}
+
+/* Pour mon logo, à définir */
+li img {
+    max-height: 130px; /* Taille max*/
+}
+
+h2 {
+    text-align: center; 
+    text-decoration: underline; /* Pour souligner le texte */
+}
+form {
+    border: 2px solid rgba(225, 210, 166, 0.975); /* Couleur de la bordure */
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Définissez la largeur maximale souhaitée */
+    margin: auto; /* Pour centrer le formulaire horizontalement */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+footer {
+    display: flex;
+    padding: 10px 20px;
+    background: rgba(225, 210, 166, 0.975); 
+    color: white; 
+    margin-top: auto;
+}
+
+.footB{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
