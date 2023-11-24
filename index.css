@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100%;
+}
+
+
+header {
+    background-color: rgba(225, 210, 166, 0.975); 
+    color: #fff; 
+    padding: 15px 20px; /* Espacement ds le header */
+}
+
+nav {
+    display: flex; /* On donne une valeur par defaut aux éléments qui resteront flexibles */ 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    margin: 0 10px;
+}
+
+/* Pour mon logo, à définir */
+li img {
+    max-height: 130px; /* Taille max*/
+}
+
+
+.contenu {
+    margin-top: 40px; /* Ajustez la valeur selon vos préférences */
+}
+
+.titre {
+    font-size: 1.5em;
+    font-weight: bold; /* Largeur de la police */
+}
+
+.principale {
+    border: 2px solid rgba(225, 210, 166, 0.975); /* Couleur de la bordure */
+    padding: 20px; /* Espace intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 600px; /* Largeur maximale */
+    margin: 0 auto; /* Centrage horizontal */
+}
+.principale p {
+    color: #333; /* Couleur du texte */
+    font-size: 16px; /* Taille de la police */
+    line-height: 1.6; /* Espacement des lignes */
+}
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.card{
+    width: 30%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    border: solid 2px black;
+}
+.shampoing {
+    background-image: url(img/produit1.jpeg);
+}
+
+.pince {
+    background-image: url(img/produit2.jpeg);
+   
+}
+
+.card h3 {
+    text-align: center;
+    color:#E6814C;
+}
+
+footer {
+    display: flex;
+    padding: 10px 20px;
+    background: rgba(225, 210, 166, 0.975); 
+    color: white; 
+    margin-top: auto;
+}
