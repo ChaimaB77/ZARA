@@ -48,6 +48,7 @@ form {
     text-align: center;
     max-width: 400px; /* Définissez la largeur maximale souhaitée */
     margin: auto; /* Pour centrer le formulaire horizontalement */
+    border-radius: 5%;
 }
 
 
@@ -58,7 +59,7 @@ label {
 
 textarea {
     width: 100%;
-    height: 150px;
+    height: 100px;
 }
 
 footer {
@@ -75,3 +76,5 @@ footer {
     width: 100%;
     height: 50px;
   }
+
+
